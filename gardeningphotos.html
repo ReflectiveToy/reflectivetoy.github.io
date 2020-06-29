@@ -6,33 +6,48 @@
         <link rel="icon" href="https://image.flaticon.com/icons/svg/685/685672.svg">
     </head>
     <body>
-        <h1 class="text">Sorry! Nothing here to display yet! More photos coming soon! </h1>
-        <a class="link" href="index.html">Back to the home page!</a>
-
-
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dogphotos.html">Dog Photos</a></li>
+            <li><a href="bakingphotos.html">Baking Photos</a></li>
+            <li><a href="alpacaphotos.html">Alpaca Photos</a></li>
+            <li><a class="active" href="gardeningphotos.html">Gardening Photos</a></li>
+          </ul>
 <!--Style-->
 <style>
-    .text {
-        font-family: 'Source Sans Pro', sans-serif;
-        color:#AB5F91;
-        font-size:40px;
-        margin: auto;
-    }
-    .link {
-        color:rgb(4,150,255);
-        text-decoration: none;
-        font-size: 20px;
-    }
-    .link:hover {
-        text-decoration: underline;
-        font-weight: bold;
-    }
-    body {
-        background-color: #e8e7dc;
-    }
-    .block {
-        color:#21D427;
-    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2264AA;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+li a:hover {
+  background-color: #143C66;
+  transition: background-color 0.2s ease;
+
+}
+body {
+  margin: 0;
+}
+.active {
+    background-color: #143C66;
+    transition: background-color 0.2s ease;
+}
     </style>
 <!--Script-->
 <script>
