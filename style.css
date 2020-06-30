@@ -4,6 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #2264AA;
+    
   }
   
   li {
@@ -29,8 +30,8 @@ ul {
   }
   .active {
       background-color: #143C66;
-      transition: background-color 0.2s ease;
   }
   h1 {
     font-family: sans-serif;
+    text-align: center;
   }
