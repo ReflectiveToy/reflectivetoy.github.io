@@ -39,3 +39,23 @@ ul {
     font-family: sans-serif;
     text-align: center;
   }
+  img {
+    max-width: 33%;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    border: darkgray outset 15px;
+    overflow: hidden;
+    
+  }
+  div.image {
+   max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  a {
+
+  }
