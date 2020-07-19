@@ -1,1 +1,1 @@
-# Alpugoo
+# JB Inc.™

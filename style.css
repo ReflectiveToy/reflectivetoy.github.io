@@ -39,7 +39,16 @@ ul {
     font-family: sans-serif;
     text-align: center;
   }
-  img {
+  li img.logo {
+    max-width: 49px;
+    width: auto;
+    height: 49px;
+    float: right;
+    position: absolute;
+    right: 1em;
+    
+  }
+  a img {
     max-width: 33%;
     width: auto;
     height: auto;
