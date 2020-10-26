@@ -1,0 +1,64 @@
+html {
+    font-size: 100%;
+}
+
+* {
+    font-family: sans-serif;
+    text-align: center;
+}
+#title {
+    margin-bottom: 0.3rem;
+    margin-top: 0.1rem;
+}
+#subtitle {
+    margin-top: 0.3rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.heading {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#definition {
+    visibility: hidden;
+}
+#page2 {
+    
+    right: 0.5rem;
+    bottom: 0.5rem;
+    position:absolute;
+
+}
+#page1 {
+    float: left;
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(77, 231, 77);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.button:hover {
+    background: rgb(53, 163, 53);
+}
+.info {
+    margin-right: 1rem;
+    
+}
+.funfact {
+    margin-top: 5rem;
+}
+span {
+    background: #42f5dd;
+    padding: 0.2rem;
+    border-radius: 7px;
+    
+}
+#sources {
+    margin-top: 10rem;
+}

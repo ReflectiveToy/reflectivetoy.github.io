@@ -31,14 +31,13 @@ ul {
   .active {
       background-color: #143C66;
   }
-  h1 {
+  h1,
+  h2,
+  h3 {
     font-family: sans-serif;
     text-align: center;
   }
-  h2 {
-    font-family: sans-serif;
-    text-align: center;
-  }
+  
   li img.logo {
     max-width: 49px;
     width: auto;
@@ -65,6 +64,4 @@ ul {
     text-align: center;
     padding-bottom: 30px;
   }
-  a {
-
-  }
+  

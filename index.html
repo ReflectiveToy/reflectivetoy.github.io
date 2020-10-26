@@ -2,34 +2,28 @@
 <html>
     <head>
          
-        <title>Home</title>
-        <link rel="icon" href="https://image.flaticon.com/icons/svg/685/685672.svg">
-        <link rel="stylesheet" href="style.css">
+        <title>My SS Project</title>
+        <link rel="icon" href="https://www.flaticon.com/svg/static/icons/svg/3061/3061919.svg">
+        <link rel="stylesheet" href="style1.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-       <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="dogphotos.html">Dog Photos</a></li>
-            <li><a href="bakingphotos.html">Baking Photos</a></li>
-            <li><a href="alpacaphotos.html">Alpaca Photos</a></li>
-            <li><a href="gardeningphotos.html">Gardening Photos</a></li>
-            <li><img class="logo" src="img/logo.png"></li>
-          </ul> 
-          <h1>Welcome to the home page!</h1>
-          <h2>Currently we are featuring Superbowl commercial bingo.</h2>
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-    <iframe
-      src="https://superbowl-bingo.glitch.me"
-      title="superbowl-bingo on Glitch"
-      allow="geolocation; microphone; camera; midi; vr; encrypted-media"
-      style="height: 200%; width: 100%; border: 0;">
-    </iframe>
-  </div>
-  
+       <h1 id="title">Government Agencies</h1>
+       <h2 id="subtitle">By: Jonah</h2>
+       <p id="intro" class="text">I'm sure that you know all about the 3 branches of the government by now. For my project, I am going to teach you about government agencies, something you might not know about. But first, let's start out simple.</p>
+       <h3 class="heading">What is a government agency?</h4>
+       <button id="showDefinition" onclick="showDefinition()">Click here to find out!</button> <p class="text" id="definition">A government agency is usually an organization responsible for the oversight and administration of specific functions. A government agency may report to a member of the cabinet, or can be independent from the executive branch.</p>
+       <h3 class="heading">What are some examples of a government agency?</h3>
+       <a id="page2" href="ss2.html" class="button">Learn more...</a>
 <!--Script-->
 <script>
-
+function showDefinition() {
+    var definition1 = document.getElementById("definition");
+    definition1.style.visibility = "visible";
+    var definition2 = document.getElementById("showDefinition");
+    definition2.style.display = "none";
+    
+};
 </script>
     </body>
 </html>
