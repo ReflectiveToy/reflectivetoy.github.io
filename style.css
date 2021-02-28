@@ -52,7 +52,11 @@ ul {
     width: auto;
     height: auto;
     margin-top: auto;
-    border: darkgray outset 15px;
+    border: darkgray outset 1rem;
+    border-top: darkgray solid 1rem;
+    border-left: darkgray solid 1rem;
+    border-right: RGB(85,85,85) solid 1rem;
+    
     overflow: hidden;
     
   }
@@ -65,3 +69,8 @@ ul {
     padding-bottom: 30px;
   }
   
+  @media screen and (max-width: 400px) {
+    li img.logo {
+      display: none;
+    }
+  }
